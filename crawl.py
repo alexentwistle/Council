@@ -12,4 +12,4 @@ open('output.html', 'wb').write(page.content)
 
 para = tree.xpath('//*[@id="up"]/div[2]/div[2]/div[1]/h1')
 for i in para:
-	print(i.text)
+	print('Text: ', i.text)
