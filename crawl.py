@@ -10,6 +10,6 @@ tree = html.fromstring(page.content)
 
 open('output.html', 'wb').write(page.content)
 
-para = tree.text_content(tree.xpath('//*[@id="up"]/div[2]/div[2]/div[1]/h1'))
-print(para)
-
+para = tree.xpath('//*[@id="up"]/div[2]/div[2]/div[1]/h1')
+for i in para:
+	print(i.text)
