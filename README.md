@@ -1,3 +1,3 @@
 # Council
 
-## For data retrieval and API integration from local council websites
+## For data retrieval from local council websites
